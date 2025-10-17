@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog - Pastel Portfolio | Reflexões Criativas e Insights de Design</title>
-    <meta name="description" content="Artigos sobre design, processo criativo e tendências. Reflexões autênticas sobre a jornada criativa e insights valiosos para profissionais e entusiastas do design." />
-    <meta name="keywords" content="blog design, processo criativo, tendências design, reflexões criativas, insights design, Brasil" />
+    <title>Aprendizados que ecoam - Ecos de Memórias</title>
+    <meta name="description" content="Aprendizados, atividades e reflexões para fortalecer vínculos familiares. Categorias sobre genealogia, educação emocional e práticas com filhos." />
+    <meta name="keywords" content="genealogia, família, educação emocional, atividades com filhos, memórias" />
     
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="Blog - Pastel Portfolio | Reflexões Criativas e Insights de Design" />
-    <meta property="og:description" content="Artigos sobre design, processo criativo e tendências criativas." />
+    <meta property="og:title" content="Aprendizados que ecoam - Ecos de Memórias" />
+    <meta property="og:description" content="Conteúdos e atividades que ajudam famílias a reconstruírem conexões afetivas." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://pastelportfolio.com/blog" />
-    <meta property="og:image" content="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2940&auto=format&fit=crop" />
+    <meta property="og:url" content="https://ecosdememorias.com/blog" />
+    <meta property="og:image" content="../assets/familia-linha-continua.jpg" />
     
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Blog",
-        "name": "Pastel Portfolio Blog",
-        "description": "Reflexões criativas e insights de design",
-        "url": "https://pastelportfolio.com/blog",
+        "name": "Ecos de Memórias - Blog",
+        "description": "Atividades, histórias e guias práticos para construir árvores familiares e preservar memórias.",
+        "url": "https://ecosdememorias.com/blog",
         "author": {
-            "@type": "Person",
-            "name": "Ana Clara Silva"
+            "@type": "Organization",
+            "name": "Ecos de Memórias"
         }
     }
     </script>
@@ -47,7 +47,7 @@
                             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
                         </svg>
                     </div>
-                    <span class="font-inter font-medium text-xl text-text-primary">Pastel Portfolio</span>
+                    <span class="font-inter font-medium text-xl text-text-primary">Ecos de Memórias</span>
                 </div>
                 
                 <!-- Desktop Navigation -->
@@ -82,14 +82,12 @@
     <section class="pt-24 pb-12 px-6">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-12">
-                <p class="text-primary-500 font-inter font-medium tracking-wide uppercase text-sm mb-4">Reflexões Criativas</p>
+                <p class="text-primary-500 font-inter font-medium tracking-wide uppercase text-sm mb-4">Aprendizados que ecoam</p>
                 <h1 class="font-inter text-4xl lg:text-6xl font-light text-text-primary leading-tight mb-6">
-                    Pensamentos sobre <span class="text-accent-serif text-secondary-500 italic">design</span> e 
-                    <span class="bg-gradient-to-r from-primary-300 to-accent-300 bg-clip-text text-transparent">criatividade</span>
+                    Aprendendo sobre nossas raízes
                 </h1>
                 <p class="text-lg text-text-secondary leading-relaxed max-w-3xl mx-auto">
-                    Compartilho insights sobre processo criativo, tendências de design e reflexões sobre a jornada 
-                    de construir uma carreira autêntica no mundo criativo. Conteúdo pensado para inspirar e agregar valor.
+                    Guias, atividades e histórias para ajudar sua família a pesquisar o passado, montar a árvore genealógica e transformar lembranças em exercícios afetivos para todas as idades.
                 </p>
             </div>
         </div>
@@ -110,11 +108,39 @@
                 <!-- Category Filter -->
                 <div class="flex flex-wrap gap-3">
                     <button class="filter-btn active" data-category="todos">Todos</button>
-                    <button class="filter-btn" data-category="processo">Processo Criativo</button>
-                    <button class="filter-btn" data-category="tendencias">Tendências</button>
-                    <button class="filter-btn" data-category="reflexoes">Reflexões</button>
-                    <button class="filter-btn" data-category="recursos">Recursos</button>
+                    <button class="filter-btn" data-category="genealogia">Genealogia & história familiar</button>
+                    <button class="filter-btn" data-category="pesquisa">Como pesquisar registros</button>
+                    <button class="filter-btn" data-category="atividades">Atividades intergeracionais</button>
+                    <button class="filter-btn" data-category="preservacao">Preservação de memórias</button>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Caixa interativa - Converse comigo -->
+    <section class="py-8 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="card p-6">
+                <h3 class="font-inter text-xl font-medium text-text-primary mb-2">Converse comigo</h3>
+                <p class="text-text-secondary mb-4">Compartilhe uma história de família que você gosta — uma lembrança de infância, um personagem querido ou uma foto especial. Pode ser curto; é confidencial e nos ajuda a criar atividades mais úteis.</p>
+                <form id="talk-form" class="flex flex-col sm:flex-row gap-4">
+                    <input name="message" type="text" placeholder="Conte uma lembrança (opcional)" class="input-field flex-1" />
+                    <button type="submit" class="btn-primary">Enviar</button>
+                </form>
+                <p class="text-xs text-text-secondary mt-2">Usaremos as histórias de forma anônima para inspirar artigos e atividades. Opcional e seguro.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dica da semana -->
+    <section class="py-8 px-6 bg-surface">
+        <div class="max-w-4xl mx-auto">
+            <div class="card p-6 flex items-center justify-between">
+                <div>
+                    <h4 class="font-inter font-medium text-text-primary">Atividade prática</h4>
+                    <p class="text-text-secondary">Dica da semana: Faça uma “caça às memórias” em casa — peça para cada membro da família escolher um objeto com história e gravar uma pequena nota sobre por que é importante. Depois, organize essas notas em um mural ou álbum.</p>
+                </div>
+                <a href="blog.html" class="px-4 py-2 border rounded-lg hover:bg-surface">Ver mais atividades</a>
             </div>
         </div>
     </section>
@@ -503,7 +529,7 @@
                                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
                             </svg>
                         </div>
-                        <span class="font-inter font-medium text-xl text-text-primary">Pastel Portfolio</span>
+                        <span class="font-inter font-medium text-xl text-text-primary">Ecos de Memórias</span>
                     </div>
                     <p class="text-text-secondary max-w-md">
                         Design thoughtful que cria impacto duradouro. Colaboração sobre transação. 
@@ -511,22 +537,10 @@
                     </p>
                     
                     <!-- Social Links -->
-                    <div class="flex space-x-4">
-                        <a href="https://instagram.com/anaclara.design" class="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center text-primary-500 hover:bg-primary-200 transition-gentle">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 6.62 5.367 11.987 11.988 11.987s11.987-5.367 11.987-11.987C24.004 5.367 18.637.001 12.017.001zM8.449 16.988c-1.297 0-2.448-.49-3.323-1.297C4.198 14.895 3.708 13.744 3.708 12.447s.49-2.448 1.297-3.323c.875-.807 2.026-1.297 3.323-1.297s2.448.49 3.323 1.297c.807.875 1.297 2.026 1.297 3.323s-.49 2.448-1.297 3.323c-.875.807-2.026 1.297-3.323 1.297z"/>
-                            </svg>
-                        </a>
-                        <a href="https://behance.net/anaclarasilva" class="w-10 h-10 bg-secondary-100 rounded-lg flex items-center justify-center text-secondary-500 hover:bg-secondary-200 transition-gentle">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14H15.97c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z"/>
-                            </svg>
-                        </a>
-                        <a href="https://linkedin.com/in/anaclarasilva" class="w-10 h-10 bg-accent-100 rounded-lg flex items-center justify-center text-accent-500 hover:bg-accent-200 transition-gentle">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                            </svg>
-                        </a>
+                    <div class="flex items-center space-x-4">
+                        <a href="https://instagram.com/ecosdememorias" class="text-text-secondary hover:text-text-primary">Instagram</a>
+                        <a href="contact.html" class="text-text-secondary hover:text-text-primary">Contato</a>
+                        <a href="/politica-de-privacidade.html" class="text-text-secondary hover:text-text-primary">Política de privacidade</a>
                     </div>
                 </div>
                 
@@ -546,15 +560,15 @@
                     <h4 class="font-inter font-medium text-text-primary">Contato</h4>
                     <div class="space-y-2 text-text-secondary">
                         <p>São Paulo, Brasil</p>
-                        <a href="mailto:ana@pastelportfolio.com" class="block hover:text-text-primary transition-gentle">ana@pastelportfolio.com</a>
+                        <a href="mailto:contato@ecosdememorias.com" class="block hover:text-text-primary transition-gentle">contato@ecosdememorias.com</a>
                         <a href="tel:+5511999999999" class="block hover:text-text-primary transition-gentle">+55 11 99999-9999</a>
                     </div>
                 </div>
             </div>
             
             <div class="border-t border-primary-100 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-text-secondary text-sm">© 2025 Pastel Portfolio. Todos os direitos reservados.</p>
-                <p class="text-text-secondary text-sm mt-2 md:mt-0">Feito com ♡ em São Paulo</p>
+                <p class="text-text-secondary text-sm">© 2025 Ecos de Memórias. Todos os direitos reservados.</p>
+                <p class="text-text-secondary text-sm mt-2 md:mt-0">Ecos de Memórias — porque a presença deixa marcas que atravessam gerações.</p>
             </div>
         </div>
     </footer>
